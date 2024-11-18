@@ -102,6 +102,8 @@ const StudentHomePage = () => {
     )
 }
 
+
+
 const ChartContainer = styled.div`
   padding: 2px;
   display: flex;

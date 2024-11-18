@@ -248,7 +248,7 @@ const StudentPortal = () => {
             <Box sx={{ mb: 2 }}>
               <TextField
                 name="studentId"
-                label="Student ID"
+                label="ID"
                 fullWidth
                 margin="normal"
                 value={registrationData.studentId}
@@ -328,6 +328,8 @@ const StudentPortal = () => {
   );
 };
 
+
+
 // Styled Components
 const StyledContainer = styled(Container)`
   display: flex;
@@ -335,7 +337,7 @@ const StyledContainer = styled(Container)`
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(135deg, #f5f7fa 0%, #e4e7ec 100%);
-  padding: 24px;
+  padding: 120px;
 `;
 
 const FeatureCard = styled(Paper)`
